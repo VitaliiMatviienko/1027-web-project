@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample HTML</title>
-    <link rel="shortcut icon" href="img/imgggg.jpg" type="image/x-icon">
+    <!--    <link rel="shortcut icon" href="img/imgggg.jpg" type="image/x-icon">-->
+    <style>
+        body {
+            background-color: #888888;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,12 +26,85 @@
                     <a href="#">About</a>
                     <a href="#">Contact</a>
                 </li>
-                
+
             </ul>
-            <img src="img/Rectangle 4.png" alt="FigmaLogo"            
+            <img src="img/logo_figmaland.png" alt="FigmaLogo">
+            <div class="social">
+                <img src="img/soc_twitter.png" alt="TwitterLogo">
+                <img src="img/soc_facebook.png" alt="FacebookLogo">
+                <img src="img/soc_linkedin.png" alt="LinkedInLogo">
+            </div>
         </nav>
+        <div>
+            <h1>
+                The best products start with Figma
+            </h1>
+            <h>
+                Most calendars are designed for teams. Slate is designed for freelancers
+            </h>
+            <div>
+                <button class="try-for-free" type="button">
+                    Try For Free
+                </button>
+            </div>
+        </div>
     </header>
     <main>
+        <div class="features">
+            <h2>
+                Features
+            </h2>
+            <h>
+                Most calendars are designed for teams. Slate is designed for freelancers
+            </h>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <img src="img/opentype_features.png" alt="OpenType features Variable fonts">
+                </td>                
+                <td>
+                    <img src="img/design_with_real_data.png" alt="Design with real data">
+                </td>                
+                <td>
+                    <img src="img/faster_way_to_take_action.png" alt="Faster way to take action">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>OpenType features
+                        Variable fonts</h3>
+                </td>
+                <td>
+                    <h3>Design with real data</h3>
+                </td>
+                <td>
+                    <h3>Fastest way to
+                        take action</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal.</p>
+                </td>
+                <td>
+                    <p>Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal.</p>
+                </td>
+                <td>
+                    <p>Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal.</p>
+                </td>
+            </tr>
+        </table>
+        <img src="img/screen.png" alt="video screen">
 
     </main>
     <footer>
@@ -36,6 +114,7 @@
 
 </html>
 <!--
+npx serve
 git add .
 git commit -m "Initial HTML"
 git push    
